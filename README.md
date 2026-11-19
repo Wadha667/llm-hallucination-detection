@@ -66,6 +66,8 @@ For Google Colab GPU runs, use `experiments/colab_transformer_experiments.ipynb`
 
 ## Documentation
 
+- [Project reference: architecture, file guide and history](PROJECT_REFERENCE.md)
+- [Evaluation metrics and ablation review](docs/metrics-ablations.md)
 - [Final model analysis](docs/final-analysis.md)
 - [Detailed model results](docs/model-results.md)
 - [Experiment log](docs/experiment-log.md)
@@ -74,3 +76,7 @@ For Google Colab GPU runs, use `experiments/colab_transformer_experiments.ipynb`
 - [Experiment instructions](docs/running-experiments.md)
 
 SciBERT and validation on an independent dataset are recorded as future work because of the available project time.
+
+## Earlier exploratory notebooks
+
+`baseline.ipynb` and `bert_roberta.ipynb` preserve the initial experiments using a random row split. Their scores are historical. Use the scripts in `experiments/` and the [evaluation protocol](docs/experimental-protocol.md) for the current six-fold evaluation grouped by context.
