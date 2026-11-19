@@ -1,5 +1,7 @@
 # Requirements and specification
 
+> Status update — 19 November 2026: early random-split results and references to the word check as the current method below are historical. The current evaluation uses six folds grouped by context, with `context_response` as the primary input. The pretrained DeBERTa-v3 NLI approach is the strongest reported method on this dataset. See [evaluation protocol](experimental-protocol.md), [model results](model-results.md), and [final analysis](final-analysis.md). Context-free detection and input-condition ablations remain future work under the grouped protocol. This update records the repository state, not new supervisor approval.
+
 COSC 497 Senior Design Project I
 Project: LLM Hallucination Detection
 Supervisor: Dr. U Zeyar Aung
